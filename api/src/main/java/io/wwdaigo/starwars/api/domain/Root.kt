@@ -1,4 +1,4 @@
-package io.wwdaigo.starwars.api.manager
+package io.wwdaigo.starwars.api.domain
 
 // TODO any as placeholder
 data class Root(
