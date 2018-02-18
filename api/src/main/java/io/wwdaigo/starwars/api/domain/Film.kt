@@ -5,7 +5,6 @@ import io.wwdaigo.starwars.api.domain.base.BaseResult
 import io.wwdaigo.starwars.api.domain.base.UrlReference
 import java.util.*
 
-// TODO Species now as Any
 data class Film(
         val title: String,
         @SerializedName("episode_id")
@@ -16,9 +15,9 @@ data class Film(
         val producer: String,
         @SerializedName("release_date")
         val releaseDate: Date,
-        val species: List<UrlReference<Any>>,
-        val starships: List<UrlReference<Any>>,
-        val vehicles: List<UrlReference<Any>>,
-        val characters: List<UrlReference<Any>>,
-        val planets: List<UrlReference<Any>>
+        val species: List<UrlReference<Species>>,
+        val starships: List<UrlReference<Starship>>,
+        val vehicles: List<UrlReference<Vehicle>>,
+        val characters: List<UrlReference<Person>>,
+        val planets: List<UrlReference<Planet>>
 ): BaseResult()
