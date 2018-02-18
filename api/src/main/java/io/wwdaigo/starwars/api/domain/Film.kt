@@ -1,6 +1,8 @@
 package io.wwdaigo.starwars.api.domain
 
 import com.google.gson.annotations.SerializedName
+import io.wwdaigo.starwars.api.domain.base.BaseResult
+import io.wwdaigo.starwars.api.domain.base.UrlReference
 import java.util.*
 
 // TODO Species now as Any

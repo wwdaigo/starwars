@@ -1,4 +1,4 @@
-package io.wwdaigo.starwars.api.domain
+package io.wwdaigo.starwars.api.domain.base
 
 import java.util.*
 

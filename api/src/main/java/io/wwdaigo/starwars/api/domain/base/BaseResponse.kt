@@ -1,4 +1,4 @@
-package io.wwdaigo.starwars.api.domain
+package io.wwdaigo.starwars.api.domain.base
 
 data class BaseResponse <out T> (
         val count: Int,
